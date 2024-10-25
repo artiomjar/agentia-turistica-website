@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<title>Agenția turistică - pagina principală</title>
+<meta name="description" content="Travel company offering the best service for tourist">
+<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link href="styles.css" rel="stylesheet">
+</head>
+<!-- Text at beginning of the page -->
+<body>
+<nav class="navbar navbar-expand">
+<div class="container">
+<a class="navbar-brand" href="index.html">Agenția turistică</a>
+<div id="navbarText">
+<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+<li class="nav-item">
+<a class="nav-link text-black" href="#flights">ZBORURI</a>
+</li>
+<li class="nav-item">
+<a class="nav-link text-black" href="#information">INFORMAȚII</a>
+</li>
+<li class="nav-item">
+<a class="nav-link text-black" href="#exchange">CURS VALUT</a>
+</li>
+<li class="nav-item">
+<a class="nav-link text-black" href="#book">REZERVĂ BILET</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<div class="container-fluid" id="flights">
+<div class="row" id="flight1">
+<div class="col"><i class="bi bi-airplane"></i> Chișinău-Berlin</div>
+<div class="col">4,948 MDL 6-9 Iunie Dus-Întors</div>
+</div>
+<div class="row" id="flight2">
+<div class="col"><i class="bi bi-airplane"></i> Chișinău-Vienna</div>
+<div class="col">5.862 MDL 10-13 Iunie Dus-Întors</div>
+</div>
+<div class="row" id="flight3">
+<div class="col"><i class="bi bi-airplane"></i> Chișinău-Istanbul</div>
+<div class="col">2,307 MDL 28-31 May Dus-Întors</div>
+</div>
+<div class="row" id="flight4">
+<div class="col"><i class="bi bi-airplane"></i> Chișinău-Roma</div>
+<div class="col">4,536 MDL 3-6 Iunie Dus-Întors</div>
+</div>
+<div class="row" id="flight5">
+<div class="col"><i class="bi bi-airplane"></i> Chișinău-Budapest</div>
+<div class="col">4,769 MDL 6-9 Iunie Dus-Întors</div>
+</div>
+</div>
+<div class="container-fluid" id="information">
+<h1>Atracții turistice in Vienna</h1>
+<div class="container-fluid" id="desc1">
+Palatul Schönbrunn (în germană Schloss Schönbrunn) este o fostă reședință imperială de vară în stil rococo și cu 1441 de camere, aflată în prezent în Viena, Austria. Fiind unul dintre cele mai importante monumente culturale din țară, el a fost începând cu anii 1960 unul dintre cele mai importante obiective turistice din Viena. Palatul și grădinile ilustrează gusturile, interesele și aspirațiile monarhilor din familia Habsburg. Palatul se află la vest de centrul orașului Viena, în cartierul Hietzing. Până în 1642 se numea "Katterburg".
+</div>
+<div class="container-fluid" id="desc1">
+Palatul Schönbrunn este cea mai populară destinație turistică din Viena, cu 2.600.000 de vizitatori în anul 2010. Întregul complex Schönbrunn cu Tiergarten Schönbrunn, Palmenhaus, Wüstenhaus și Wagenburg, a avut mai mult de cinci milioane de vizitatori. Pe situl oficial pot fi achiziționate în avans bilete pentru excursii. În afară de excursii și de pachete turistice, sunt organizate multe concerte clasice cu muzica lui W. A. Mozart și a contemporanilor săi în sălile de spectacole, în Orangerie sau în Schlosstheater.
+</div>
+</div>
+<div class="container-fluid" id="exchange">
+<h1>Cursul valutar</h1>
+<div class="row">
+<div class="col">EUR - </div>
+<div class="col" id="eur">MDL </div>
+</div>
+<div class="row">
+<div class="col">USD - </div>
+<div class="col" id="usd">MDL </div>
+</div>
+<div class="row">
+<div class="col">GBP - </div>
+<div class="col" id="gbp">MDL </div>
+</div>
+<div class="row">
+<div class="col">RON - </div>
+<div class="col" id="ron">MDL </div>
+</div>
+</div>
+<div class="container-fluid" id="book">
+<form>
+<div class="mb-3">
+<div class="row" id="destType">
+<div class="form-check col-3">
+  <input class="form-check-input" type="radio" name="destType" id="roundTrip">
+  <label class="form-check-label" for="roundTrip">
+    Tur-retur
+  </label>
+</div>
+<div class="form-check col-3">
+  <input class="form-check-input" type="radio" name="destType" id="singleDirection">
+  <label class="form-check-label" for="singleDirection">
+    Direcția singură
+  </label>
+</div>
+</div>
+<div class="row" id="bookForm">
+<div class="mb-3 col-3">
+    <label for="firstNameInput" class="form-label">Nume</label>
+    <input type="text" class="form-control" id="firstNameInputF">
+    </div>
+    <div class="mb-3 col-3">
+    <label for="lastNameInput" class="form-label">Prenume</label>
+    <input type="text" class="form-control" id="lastNameInputF">
+    </div>
+    </div>
+    </div>
+  <div class="mb-3 col-3">
+    <label for="emailInput" class="form-label">Email</label>
+    <input type="email" class="form-control" id="emailInputF" aria-describedby="formDesc1">
+    <div id="formDesc1" class="form-text">Nu vom împărtăși niciodată e-mailul tău cu nimeni altcineva.</div>
+  </div>
+  <div class="mb-3 col-3">
+    <label for="fromDestination" class="form-label">De la</label>
+    <input type="text" class="form-control" id="fromDestinationF">
+  </div>
+  <div class="mb-3 col-3">
+    <label for="toDestination" class="form-label">Destinații</label>
+    <input type="text" class="form-control" id="toDestinationF">
+  </div>
+  <button type="submit" class="btn btn-primary">Rezervați</button>
+</form>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="jquery-3.7.1.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

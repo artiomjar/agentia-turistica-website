@@ -1,0 +1,58 @@
+.navbar {
+background-image: linear-gradient(white, black);
+}
+#flights {
+color: #ffffff;
+font-family: verdana;
+font-size: 28px;
+background-image: url("images/travel-agency-1.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+#flight1, #flight2, #flight3, #flight4 {
+padding-bottom: 30px;
+}
+#information {
+color: #ffffff;
+font-family: verdana;
+font-size: 19px;
+background-image: url("images/travel-agency-2.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+#desc1 {
+margin-top: 30px;
+}
+#exchange {
+	color: #ffffff;
+font-family: verdana;
+font-size: 22px;
+background-image: url("images/travel-agency-3.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+#book {
+	font-family: verdana;
+	color: #000000;
+	background-color: gray;
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+#destType {
+padding-right: 30px;
+padding-bottom: 30px;
+}
